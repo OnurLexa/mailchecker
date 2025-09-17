@@ -234,30 +234,4 @@ if __name__ == "__main__":
 
 ---
 
-## .gitignore önerisi
 
-```
-.venv/
-__pycache__/
-*.pyc
-.env
-```
-
----
-
-## Geliştirme / İyileştirme Önerileri
-
-- Daha geniş bir disposable domain listesi kullan (GitHub üzerinde public listeler var).
-- İsteğe bağlı `--simulate` modu ekle (API yokken belirli JSON ile simülasyon yapmaya izin verir).
-- Logging, CLI argüman desteği (`argparse`) ve batch (CSV) giriş/çıkış desteği ekle.
-- SMTP testini daha güvenli hale getirmek için bağlantı havuzlama, retry, rate-limit ve proxy desteği ekle.
-
----
-
-## Lisans
-
-Bu repo örnek amaçlıdır. Önerilen lisans: MIT. `LICENSE` dosyası ekleyebilirsin.
-
----
-
-Teşekkürler! İstersen ben bu dosyaları tek bir ZIP halinde oluşturup sana indirme linki çıkarayım veya README'de değişiklik yapayım (örneğin `argparse` örneği eklemek gibi).
