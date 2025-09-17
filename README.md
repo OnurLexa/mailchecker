@@ -4,21 +4,6 @@
 
 > Bu repo, tek tek (izinli) e-posta adreslerini yerel olarak kontrol etmek için bir Python scripti ve accompanying README içerir. Toplu, izinsiz e-posta toplama/harvesting (mail scraping) için kullanılmamalıdır — yasal ve etik kurallara uy.
 
----
-
-## İçindekiler
-
-```
-mail-checker/
-├── README.md            # Bu dosya
-├── email_check.py       # Ana script
-├── requirements.txt     # Gerekli paketler
-├── .gitignore
-└── LICENSE              # Önerilen lisans (MIT örneği)
-```
-
----
-
 ## Özellikler
 
 - E-posta format kontrolü (regex)
